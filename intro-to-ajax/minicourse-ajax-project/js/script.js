@@ -72,9 +72,9 @@ function loadData() {
 
         clearTimeout(wikiRequestTimeout);
       }
-    })
+    });
 
     return false;
-};
+}
 
 $('#form-container').submit(loadData);
