@@ -41,27 +41,24 @@ Sample codes for Udacity Frontend Nanodegree Course
 ```
 
 ## How to review the commits and branch history
-This will show one commit per line and decorate with branch names
-```git
+This will show one commit per line and decorate with branch names<br/>
+`
 git log --graph --decorate --oneline --all
-```
+`
 
 ## How to checkout a specific sample project
-```git
+`
 git checkout project-branch-name
-```
+`
 
 ## How to add new sample project to the repository
 e.g., intro-to-ajax/minicourse-ajax-project/*
 
-1. Create course branch if it does not exist yet
-```git
-git branch intro-to-ajax initial-master
-```
-1. Checkout course branch
-```git
-git checkout intro-to-ajax
-```
+1. Create course branch if it does not exist yet<br/>
+    `git branch intro-to-ajax initial-master`
+
+1. Checkout course branch<br/>
+    `git checkout intro-to-ajax`
 1. Create course directory if it does not exist yet
 ```
 mkdir intro-to-ajax
