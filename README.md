@@ -59,45 +59,45 @@ e.g., intro-to-ajax/minicourse-ajax-project/*
 git branch intro-to-ajax initial-master
 ```
 
-1. Checkout course branch
+2. Checkout course branch
 ```git
 git checkout intro-to-ajax
 ```
 
-1. Create course directory if it does not exist yet
+3. Create course directory if it does not exist yet
 ```
 mkdir intro-to-ajax
 touch intro-to-ajax/README.md
 ```
 
-1. Commit and tag the initial course directory
+4. Commit and tag the initial course directory
 ```git
 git add .
 git commit -m "intro-to-ajax initial commit"
 git tag "initial-intro-to-ajax"
 ```
 
-1. Create and checkout new sample project branch
+5. Create and checkout new sample project branch
 ```git
 git checkout -b minicourse-ajax-project
 or
 git checkout -b minicourse-ajax-project initial-intro-to-ajax
 ```
 
-1. Create the sample project directory and copy all initial files except .git directory
+6. Create the sample project directory and copy all initial files except .git directory
 ```
 mkdir intro-to-ajax/minicourse-ajax-project
 copy from-source-code intro-to-ajax/minicourse-ajax-project/
 ```
 
-1. Commit and tag the initial sample project directory
+7. Commit and tag the initial sample project directory
 ```git
 git add .
 git commit -m "minicourse-ajax-project initial commit"
 git tag "initial-minicourse-ajax-project"
 ```
 
-1. Push all changes and tags to github
+8. Push all changes and tags to github
 ```
 git push --all
 git push --tags
