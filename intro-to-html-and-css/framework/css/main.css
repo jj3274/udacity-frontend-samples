@@ -68,3 +68,32 @@
 .col-12 {
     width: 100%;
 }
+
+/*
+which media queries make paragraphs disappear for screens smaller than 500px ?
+  first and second
+*/
+
+@media only screen and (max-width: 500px) {
+  p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) and (orientation: landscape) {
+  p {
+    display: none;
+  }
+}
+
+/*@media only screen and (min-width: 500px) {
+  p {
+    display: none;
+  }
+}*/
+
+/*@media only print and (max-width: 500px) {
+  p {
+    display: none;
+  }
+}*/
