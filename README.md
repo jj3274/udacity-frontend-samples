@@ -86,3 +86,4 @@ e.g., intro-to-ajax/minicourse-ajax-project/*
 1. Push all changes and tags to github<br/>
     `git push --all`<br/>
     `git push --tags`
+.
